@@ -38,7 +38,4 @@ Ensure you have the following installed:
 - An [AWS Account](https://aws.amazon.com/)
 - [AWS CLI](https://aws.amazon.com/cli/) (v2 or later)
 
-### **Clone the Repository**
-```bash
-git clone https://github.com/yourusername/makeup-web-scraper.git
-cd makeup-web-scraper
+
