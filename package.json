@@ -1,0 +1,15 @@
+{
+  "name": "makeup-product-scraper",
+  "version": "1.0.0",
+  "description": "## **Overview** This repository contains a collection of web scraping scripts built using **Puppeteer**, with **AWS Lambda** for managing a pool of IP addresses and a **Docker rotating proxy** for rotating proxies during scraping. The scripts collect data for **concealer**, **bronzer**, and **foundation/setting powder** from the following e-commerce websites: - **Amazon** - **Sephora** - **YesStyle** - **Shoppers Drug Mart**",
+  "main": "index.js",
+  "scripts": {
+    "amazon-foundation": "node ./scripts/amazon/amazon-foundation.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.11.1",
+    "puppeteer-core": "^23.11.1"
+  }
+}
