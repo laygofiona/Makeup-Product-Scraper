@@ -1,0 +1,7 @@
+services:
+  proxy:
+    image: mitmproxy/mitmproxy
+    command: mitmdump --mode regular --listen-port 8888
+    ports:
+      - "8888:8888"
+    restart: always
